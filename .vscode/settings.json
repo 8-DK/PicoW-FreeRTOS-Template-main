@@ -1,0 +1,23 @@
+{
+	"files.associations": {
+		"cyw43_arch.h": "c",
+		"ssd1306_font.h": "c",
+		"*.tcc": "c",
+		"cstdlib": "c",
+		"memory": "c",
+		"ssd1306.h": "c",
+		"exception.h": "c",
+		"clocks.h": "c",
+		"rp2040_config.h": "c",
+		"task.h": "c",
+		"freertos.h": "c",
+		"freertosconfig.h": "c",
+		"portmacro.h": "c",
+		"pico.h": "c",
+		"sync.h": "c",
+		"multicore.h": "c"
+	},
+	"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0 }",
+	"C_Cpp.clang_format_style": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0 }",
+    "picowgo.openOnStart": true // Just here to use PicoW-Go extension for Serial
+}

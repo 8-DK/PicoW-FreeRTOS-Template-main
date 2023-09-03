@@ -1,0 +1,3 @@
+add_library(libspistorage Storage.cpp Storage.h)
+target_include_directories(libspistorage PUBLIC ${PROJECT_SOURCE_DIR}/configs/FreeRTOS-Kernel ${PROJECT_SOURCE_DIR}/FreeRTOS-Kernel/include ${PROJECT_SOURCE_DIR}/include/ ${PROJECT_SOURCE_DIR}/FreeRTOS-Kernel/portable/GCC/ARM_CM0 .)
+target_link_libraries(libspistorage PUBLIC pico_stdlib pico-cpp hardware_spi hardware_flash hardware_i2c tinyusb_device tinyusb_board)
